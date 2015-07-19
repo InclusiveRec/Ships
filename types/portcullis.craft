@@ -1,0 +1,27 @@
+name: portcullis
+maxSize: 1000
+minSize: 3
+allowedBlocks: 
+    - 85    #Wood fence
+    - 101   #Iron bars
+    - 113   #Nether Brick Fence
+    - 139   #Cobblestone Wall 
+    - 188   #Spruce fence 
+    - 189   #Birch fence 
+    - 190   #Jungle fence 
+    - 191   #Dark Oak fence 
+    - 192   #Acacia fence
+    
+forbiddenBlocks:
+    - 7
+
+blockedByWater: false
+allowHorizontalMovement: false
+canStaticMove: true
+maxStaticMove: 2
+speed: 1.0
+tryNudge: false
+flyblocks:
+    85:
+        - 0.0
+        - 100.0

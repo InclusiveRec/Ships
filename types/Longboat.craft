@@ -1,38 +1,32 @@
 name: Longboat
-maxSize: 1000
+
+# The longboat is a common sight in Galdur.  It is a light sailing ship with a shallow draught for
+# maneuvering in swamps and rivers.  It can carry a small cargo load, but the force of a cannon
+# would probably shake it to pieces.  Its strengths are speed and being cheap to build.
+
+maxSize: 500
 minSize: 20
-allowedBlocks: 
+allowedBlocks: # Planks, a few decorations, minimal storage.
     - 5     # planks
     - 17    # logs
-    - 23    # dispenser
-    - 26    # bed
+    - 26    # Bed.  Parties often use their landing sites as bases.
     - 30    # cobweb
     - 35    # wool
+    - 44    # some stone and wooden slabs.  Can be used as armour.
     - 50    # torch
     - 53    # oak stairs
     - 54    # chest
-    - 55    # redstone wire
     - 58    # crafting table
     - 63    # sign
     - 64    # oak door
     - 65    # ladder
     - 68    # also a sign
     - 69    # lever
-    - 70    # stone pressure plate
-    - 72    # wooden pressure plate
-    - 75    # redstone torch (off)
-    - 76    # redstone torch (on)
-    - 77    # stone button
     - 85    # oak fence
     - 89    # glowstone
     - 92    # cake
-    - 93    # redstone repeater (off)
-    - 94    # redstone repeater (on)
     - 96    # wooden trapdoor
-    - 101   # iron bars
     - 107   # oak fence gates
-    - 123   # redstone lamp (off)
-    - 124   # redstone lamp (on)
     - 125   # double oak slabs
     - 126   # wooden slabs
     - 127   # cocoa
@@ -42,37 +36,63 @@ allowedBlocks:
     - 136   # jungle wood stairs
     - 143   # wooden button
     - 144   # mob head
-    - 146   # trapped chest
-    - 152   # redstone block
-    - 154   # hopper
-    - 157   # activator track
-    - 158   # dropper
+    - 162   # New logs
+    - 163   # wooden stairs
     - 171   # carpet
+    - 176   # banner
+    - 177   # banner v2
+    - 183   # 183-192 are fences
+    - 184
+    - 185
+    - 186
+    - 187
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 193   # Doors
+    - 194
+    - 195
+    - 196
+    - 197
 
 forbiddenBlocks:
-    - 7
+    - 165 # Slimeblock ship traps could be interesting...  Or just port security.
 
-canCruise: false
+# It's a boat
 canFly: false
-sinkPercent: 99.0
-overallSinkPercent: 60.0
-minHeightLimit: 50
-maxHeightLimit: 80
 requireWaterContact: true
 allowVerticalMovement: false
-keepMovingOnSink: true
-speed: 0.5
 tryNudge: false
+
+# Movement settings
+speed: 2
+canCruise: true
+cruiseSpeed: 1
+cruiseSkipBlocks: 4
+canStaticMove: true
+maxStaticMove: 1
+
+
+# Sinking settings
+sinkPercent: 95.0               # If the hull gets blown open, that's basically game over.
+overallSinkPercent: 75.00       # The ship can take a bit of beating otherwise, but not too much.
+keepMovingOnSink: true
+
+# Building restrictions
+minHeightLimit: 58              # With the keel only four blocks below water, the longboat has a very shallow draught.
+maxHeightLimit: 80              # 
 flyblocks:
-    5:
-        - 25.0
+    5:                          # Oak planks.  The longboat is mostly hull.
+        - 50.0
         - 100.0
-    145: # anvils are OP armor, so limit it
-        - 0.0
-        - 1.0
-    49: # so is obsidian
-        - 0.0
-        - 1.0
-    8: # so is water
-        - 0.0
-        - 1.0
+    35:                         # Wool.  Longboats use sails to quickly cross large bodies of water.
+        - 20.00
+        - 100.00
+    54:                         # Chests.  A well-designed longboat makes a reasonable trader.
+        - 0.00
+        - 10.00
+    44:                         # Slabs.  Only available armour
+        - 0.00
+        - 5.00

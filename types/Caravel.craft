@@ -1,5 +1,5 @@
 name: Caravel
-maxSize: 6000
+maxSize: 7000
 minSize: 2000
 allowedBlocks: 
     - 5
@@ -111,12 +111,6 @@ flyblocks:
     5:
         - 25.0
         - 100.0
-    145: # anvils are OP armor, so limit it
-        - 0.0
-        - 1.0
-    49: # so is obsidian
-        - 0.0
-        - 1.0
-    8: # so is water
-        - 0.0
-        - 1.0
+    35:
+        - 50.0
+        - 100.0

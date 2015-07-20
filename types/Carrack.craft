@@ -1,6 +1,6 @@
 name: Carrack
 maxSize: 15000
-minSize: 5000
+minSize: 6000
 allowedBlocks: 
     - 5
     - 10
@@ -100,7 +100,7 @@ forbiddenBlocks:
 canCruise: true
 cruiseSkipBlocks: 4
 canFly: false
-sinkPercent: 99.0
+sinkPercent: 50.0
 overallSinkPercent: 60.0
 minHeightLimit: 50
 maxHeightLimit: 80
@@ -112,12 +112,5 @@ flyblocks:
     17:
         - 20.0
         - 100.0
-    145: # anvils are OP armor, so limit it
-        - 0.0
-        - 1.0
-    49: # so is obsidian
-        - 0.0
-        - 1.0
-    8: # so is water
-        - 0.0
-        - 1.0
+    35:
+        - 

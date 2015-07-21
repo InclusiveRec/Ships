@@ -1,72 +1,128 @@
 name: Cog
-maxSize: 3000
+
+
+maxSize: 2500
 minSize: 1000
-allowedBlocks: 
+allowedBlocks:
+    # Same as longboat
     - 5     # planks
     - 17    # logs
-    - 23    # dispenser
-    - 26    # bed
+    - 26    # Bed.  Parties often use their landing sites as bases.
     - 30    # cobweb
+    - 34    # Piston head (required for storage crates)
     - 35    # wool
+    - 44    # some stone and wooden slabs.  Can be used as armour.
     - 50    # torch
     - 53    # oak stairs
     - 54    # chest
-    - 55    # redstone wire
     - 58    # crafting table
     - 63    # sign
     - 64    # oak door
     - 65    # ladder
     - 68    # also a sign
     - 69    # lever
-    - 70    # stone pressure plate
-    - 72    # wooden pressure plate
-    - 75    # redstone torch (off)
-    - 76    # redstone torch (on)
-    - 77    # stone button
     - 85    # oak fence
     - 89    # glowstone
     - 92    # cake
-    - 93    # redstone repeater (off)
-    - 94    # redstone repeater (on)
     - 96    # wooden trapdoor
-    - 101   # iron bars
     - 107   # oak fence gates
-    - 123   # redstone lamp (off)
-    - 124   # redstone lamp (on)
     - 125   # double oak slabs
     - 126   # wooden slabs
     - 127   # cocoa
-    - 131   # tripwire hook
     - 134   # spruce stairs
     - 135   # birch stairs
     - 136   # jungle wood stairs
     - 143   # wooden button
     - 144   # mob head
-    - 146   # trapped chest
-    - 152   # redstone block
-    - 154   # hopper
-    - 157   # activator track
-    - 158   # dropper
+    - 162   # New logs
+    - 163   # wooden stairs
     - 171   # carpet
-
+    - 176   # banner
+    - 177   # banner v2
+    - 183   # 183-192 are fences
+    - 184
+    - 185
+    - 186
+    - 187
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 193   # Doors
+    - 194
+    - 195
+    - 196
+    - 197
+    # More decorations
+    - 95    # Glass
+    - 101   # Iron bars
+    - 102   # Glass pane
+    - 139   # Stone walls
+    - 159   # Stained clay
+    - 160   # Stained glass panes
+    - 171   # carpet
+    # Redstone devices
+    - 27
+    - 28
+    - 29
+    - 34
+    - 46    # TNT!
+    - 55
+    - 69
+    - 70
+    - 71
+    - 72
+    - 75
+    - 76
+    - 77
+    - 93
+    - 94
+    - 131
+    - 143
+    - 146
+    - 149
+    - 150
+    - 151
+    - 152
+    - 154
+    - 157
+    - 158
+    - 178
+    # Cannons
+    - 42    # Iron block; larger cogs can carry a few light cannons.
 forbiddenBlocks:
-    - 7
+    - 165 # Slimeblock ship traps could be interesting...  Or just port security.
 
-canCruise: true
-cruiseSkipBlocks: 4
+# It's a boat
 canFly: false
-sinkPercent: 99.0
-overallSinkPercent: 60.0
-minHeightLimit: 50
-maxHeightLimit: 80
 requireWaterContact: true
 allowVerticalMovement: false
-speed: 0.5
 tryNudge: false
+
+# Movement settings - The cog is slow and lumbering.
+speed: 1
+canCruise: true
+cruiseSpeed: 1
+cruiseSkipBlocks: 2
+canStaticMove: false
+
+
+# Sinking settings
+sinkPercent: 80.0               # The cog is somewhat sturdy.
+overallSinkPercent: 60.00
+keepMovingOnSink: true
+
+# Building restrictions - Cogs are larger than longboats, but still don't sit very deep in the water.
+minHeightLimit: 57
+maxHeightLimit: 90
 flyblocks:
-    5:
+    5:                          # Oak planks.  A cog can stand a few bruises, and carry more equipment than a longboat.
         - 50.0
         - 100.0
-    35:
+    35:                         # Wool.  A somewhat large sail is required.
         - 20.0
         - 100.0
+    42:                         # Iron blocks.  Cogs can mount a few guns.
+        - 0.0
+        - 0.5

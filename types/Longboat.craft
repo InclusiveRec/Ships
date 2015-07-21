@@ -2,7 +2,7 @@ name: Longboat
 
 # The longboat is a common sight in Galdur.  It is a light sailing ship with a shallow draught for
 # maneuvering in swamps and rivers.  It can carry a small cargo load, but the force of a cannon
-# would probably shake it to pieces.  Its strengths are speed and being cheap to build.
+# would shake it to pieces.  Its strengths are speed and being cheap to build.
 
 maxSize: 500
 minSize: 20
@@ -11,6 +11,7 @@ allowedBlocks: # Planks, a few decorations, minimal storage.
     - 17    # logs
     - 26    # Bed.  Parties often use their landing sites as bases.
     - 30    # cobweb
+    - 34    # Piston head (required for storage crates)
     - 35    # wool
     - 44    # some stone and wooden slabs.  Can be used as armour.
     - 50    # torch
@@ -30,7 +31,6 @@ allowedBlocks: # Planks, a few decorations, minimal storage.
     - 125   # double oak slabs
     - 126   # wooden slabs
     - 127   # cocoa
-    - 131   # tripwire hook
     - 134   # spruce stairs
     - 135   # birch stairs
     - 136   # jungle wood stairs
@@ -38,7 +38,6 @@ allowedBlocks: # Planks, a few decorations, minimal storage.
     - 144   # mob head
     - 162   # New logs
     - 163   # wooden stairs
-    - 171   # carpet
     - 176   # banner
     - 177   # banner v2
     - 183   # 183-192 are fences
@@ -80,15 +79,15 @@ sinkPercent: 95.0               # If the hull gets blown open, that's basically 
 overallSinkPercent: 75.00       # The ship can take a bit of beating otherwise, but not too much.
 keepMovingOnSink: true
 
-# Building restrictions
-minHeightLimit: 58              # With the keel only four blocks below water, the longboat has a very shallow draught.
-maxHeightLimit: 80              # 
+# Building restrictions - longboats sit light in the water, and are not very tall.
+minHeightLimit: 58
+maxHeightLimit: 77 
 flyblocks:
     5:                          # Oak planks.  The longboat is mostly hull.
-        - 50.0
+        - 70.0
         - 100.0
     35:                         # Wool.  Longboats use sails to quickly cross large bodies of water.
-        - 20.00
+        - 10.00
         - 100.00
     54:                         # Chests.  A well-designed longboat makes a reasonable trader.
         - 0.00

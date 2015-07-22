@@ -91,8 +91,6 @@ allowedBlocks:
     - 42    # Iron block; larger cogs can carry a few light cannons.
 forbiddenBlocks:
     - 165 # Slimeblock ship traps could be interesting...  Or just port security.
-
-forbiddenBlocks:
     - 7
 
 canCruise: true

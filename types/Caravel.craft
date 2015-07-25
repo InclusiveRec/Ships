@@ -92,9 +92,6 @@ allowedBlocks:
 forbiddenBlocks:
     - 165 # Slimeblock ship traps could be interesting...  Or just port security.
 
-forbiddenBlocks:
-    - 7
-
 canCruise: true
 cruiseSkipBlocks: 4
 canFly: false

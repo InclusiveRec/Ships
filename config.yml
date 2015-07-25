@@ -3,9 +3,9 @@ CompatibilityMode: true
 SinkRateTicks: 60
 SinkCheckTicks: 120
 TracerRateTicks: 5
-PilotTool: 345
+PilotTool: 345 # Compass
 WorldGuardBlockMoveOnBuildPerm: true
-WorldGuardBlockSinkOnPVPPerm: true
+WorldGuardBlockSinkOnPVPPerm: false
 ManOverBoardTimeout: 30
 FireballLifespan: 6
 FireballPenetration: true

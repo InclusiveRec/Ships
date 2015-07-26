@@ -2,38 +2,38 @@ name: Carrack
 maxSize: 15000
 minSize: 6000
 allowedBlocks: 
-    - 5
+    - 5     # planks
     - 10
     - 11
-    - 17
+    - 17    # logs
     - 20
     - 23
     - 25
-    - 26
+    - 26    # Bed.  Parties often use their landing sites as bases.
     - 29
-    - 30 # cobweb
+    - 30    # cobweb
     - 33
-    - 34
-    - 35
+    - 34    # Piston head (required for storage crates)
+    - 35    # wool
     - 41
     - 42
     - 43
-    - 44
+    - 44    # some stone and wooden slabs.
     - 47
     - 49
-    - 50
-    - 53
-    - 54
+    - 50    # torch
+    - 53    # oak stairs
+    - 54    # chest
     - 55
     - 57
-    - 58
+    - 58    # crafting table
     - 61
     - 62
-    - 63
-    - 64
-    - 65
-    - 68
-    - 69
+    - 63    # sign
+    - 64    # oak door
+    - 65    # ladder
+    - 68    # also a sign
+    - 69    # lever
     - 70
     - 71
     - 72
@@ -41,18 +41,18 @@ allowedBlocks:
     - 76
     - 77
     - 82
-    - 85
+    - 85    # oak fence
     - 87
-    - 89
-    - 92
+    - 89    # glowstone
+    - 92    # cake
     - 93
     - 94
     - 95
-    - 96
+    - 96    # wooden trapdoor
     - 98
     - 101
     - 102
-    - 107
+    - 107   # oak fence gates
     - 109
     - 112
     - 113
@@ -63,19 +63,19 @@ allowedBlocks:
     - 122
     - 123
     - 124
-    - 125
-    - 126
+    - 125   # double oak slabs
+    - 126   # wooden slabs
     - 130
     - 131
     - 133
-    - 134
-    - 135
-    - 136
+    - 134   # spruce stairs
+    - 135   # birch stairs
+    - 136   # jungle wood stairs
     - 138
     - 139
     - 140
-    - 143
-    - 144
+    - 143   # wooden button
+    - 144   # mob head
     - 145
     - 146
     - 147
@@ -90,12 +90,12 @@ allowedBlocks:
     - 157
     - 158
     - 159
-    - 171
+    - 171   # carpet
     - 172
     - 173
 
 forbiddenBlocks:
-    - 7
+    - 165 # Slimeblock ship traps could be interesting...  Or just port security.
 
 canCruise: true
 cruiseSkipBlocks: 4

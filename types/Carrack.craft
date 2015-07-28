@@ -3,96 +3,97 @@ maxSize: 15000
 minSize: 6000
 allowedBlocks: 
     - 5     # planks
-    - 10
-    - 11
+    - 10    # flowing lava
+    - 11    # still lava
     - 17    # logs
-    - 20
-    - 23
-    - 25
+    - 20    # glass
+    - 23    # dispenser
+    - 25    # note block
     - 26    # Bed.  Parties often use their landing sites as bases.
-    - 29
+    - 29    # Sticky piston
     - 30    # cobweb
-    - 33
+    - 33    # piston
     - 34    # Piston head (required for storage crates)
     - 35    # wool
-    - 41
-    - 42
-    - 43
+    - 41    # gold block
+    - 42    # iron block
+    - 43    # smoe double stone and wood slabs
     - 44    # some stone and wooden slabs.
-    - 47
-    - 49
+    - 47    # bookshelf
+    - 49    # Obsidian
     - 50    # torch
     - 53    # oak stairs
     - 54    # chest
-    - 55
-    - 57
+    - 55    # redstone wire
+    - 57    # diamond block
     - 58    # crafting table
-    - 61
-    - 62
+    - 61    # furnace
+    - 62    # burning furnace
     - 63    # sign
     - 64    # oak door
     - 65    # ladder
     - 68    # also a sign
     - 69    # lever
-    - 70
-    - 71
-    - 72
-    - 75
-    - 76
-    - 77
-    - 82
+    - 70    # stone pressure plate
+    - 71    # iron door
+    - 72    # wooden pressure plate
+    - 75    # unlit redstone torch
+    - 76    # lit redstone torch
+    - 77    # stone button
+    - 82    # clay
     - 85    # oak fence
-    - 87
+    - 87    # netherrack
     - 89    # glowstone
     - 92    # cake
-    - 93
-    - 94
-    - 95
+    - 93    # redstone repeater (off)
+    - 94    # redstone repeater (on)
+    - 95    # stained glass
     - 96    # wooden trapdoor
-    - 98
-    - 101
-    - 102
+    - 98    # stone bricks
+    - 101   # iron bars
+    - 102   # glass panes
     - 107   # oak fence gates
-    - 109
-    - 112
-    - 113
-    - 114
-    - 116
-    - 117
-    - 118
-    - 122
-    - 123
-    - 124
+    - 109   # stone brick stairs
+    - 112   # nether brick
+    - 113   # nether brick fence
+    - 114   # nether brick stairs
+    - 116   # enchantment table
+    - 117   # brewing stand
+    - 118   # cauldron
+    - 122   # dragon egg
+    - 123   # redstone lamp (on)
+    - 124   # redstone lamp (off)
     - 125   # double oak slabs
     - 126   # wooden slabs
-    - 130
-    - 131
-    - 133
+    - 130   # enderchest
+    - 131   # tripwire hook
+    - 133   # emerald block
     - 134   # spruce stairs
     - 135   # birch stairs
     - 136   # jungle wood stairs
-    - 138
-    - 139
-    - 140
+    - 138   # beacon
+    - 139   # cobblestone wall
+    - 140   # flower pot
     - 143   # wooden button
     - 144   # mob head
-    - 145
-    - 146
-    - 147
-    - 148
-    - 149
-    - 150
-    - 151
-    - 152
-    - 154
-    - 155
-    - 156
-    - 157
-    - 158
-    - 159
+    - 145   # anvil
+    - 146   # trapped chest
+    - 147   # light pressure plate
+    - 148   # heavy pressure plate
+    - 149   # redstone comparator (off)
+    - 150   # redstone comparator (on)
+    - 151   # daylight sensor
+    - 152   # redstone block
+    - 154   # hopper
+    - 155   # quartz block
+    - 156   # quartz stairs
+    - 157   # activator rail
+    - 158   # dropper
+    - 159   # stained clay
+    - 160   # stained glass panes
     - 171   # carpet
-    - 172
-    - 173
+    - 172   # hardened clay
+    - 173   # block of coal
 
 forbiddenBlocks:
     - 165 # Slimeblock ship traps could be interesting...  Or just port security.

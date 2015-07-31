@@ -66,7 +66,7 @@ allowVerticalMovement: false
 tryNudge: false
 
 # Movement settings
-speed: 2
+speed: 3
 canCruise: true
 cruiseSpeed: 1
 cruiseSkipBlocks: 4
@@ -87,7 +87,7 @@ flyblocks:
         - 50.0
         - 100.0
     [35,85]:                         # Wool.  Longboats use sails to quickly cross large bodies of water.
-        - 20.00
+        - 15.00
         - 100.00
     54:                         # Chests.  A well-designed longboat makes a reasonable trader.
         - 0.00

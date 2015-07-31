@@ -105,7 +105,8 @@ speed: 1
 canCruise: true
 cruiseSpeed: 1
 cruiseSkipBlocks: 2
-canStaticMove: false
+canStaticMove: true
+maxStaticMove: 1
 
 
 # Sinking settings
@@ -121,7 +122,7 @@ flyblocks:
         - 50.0
         - 100.0
     [35,85]:                         # Wool.  A somewhat large sail is required.
-        - 25.0
+        - 20.0
         - 100.0
     42:                         # Iron blocks.  Cogs can mount a few guns.
         - 0.0

@@ -88,25 +88,40 @@ allowedBlocks:
     - 158
     - 178
     # Cannons
-    - 42    # Iron block; larger cogs can carry a few light cannons.
+    - 42    # Iron block
 forbiddenBlocks:
     - 165 # Slimeblock ship traps could be interesting...  Or just port security.
 
-canCruise: true
-cruiseSkipBlocks: 4
+# It's a boat
 canFly: false
-sinkPercent: 99.0
-overallSinkPercent: 60.0
-minHeightLimit: 50
-maxHeightLimit: 80
 requireWaterContact: true
 allowVerticalMovement: false
-speed: 0.5
 tryNudge: false
+
+# Movement settings - The caravel has large sails, giving it some maneuverability and a high cruise speed.
+speed: 3
+canCruise: true
+cruiseSpeed: 4
+cruiseSkipBlocks: 6
+canStaticMove: true
+maxStaticMove: 2
+
+
+# Sinking settings
+sinkPercent: 80.0               # The caravel is somewhat sturdy.
+overallSinkPercent: 60.00
+keepMovingOnSink: true
+
+# Building restrictions - Caravels are a bit bigger than cogs.
+minHeightLimit: 55
+maxHeightLimit: 100
 flyblocks:
-    5:
-        - 25.0
-        - 100.0
-    35:
+    [5,17,53,125,126,134,135,136,162,163]:                          # Hull blocks
         - 50.0
         - 100.0
+    [35,85]:                         # Wool.  Caravels have big sails.
+        - 25.0
+        - 100.0
+    42:                         # Before the development of the carrack, some caravels were outfitted as warships.
+        - 0.0
+        - 1.5

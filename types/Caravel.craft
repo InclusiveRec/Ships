@@ -24,6 +24,7 @@ allowedBlocks:
     - 92    # cake
     - 96    # wooden trapdoor
     - 107   # oak fence gates
+    - 108   # brick staires 
     - 125   # double oak slabs
     - 126   # wooden slabs
     - 127   # cocoa

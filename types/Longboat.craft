@@ -7,6 +7,7 @@ name: Longboat
 maxSize: 500
 minSize: 20
 allowedBlocks: # Planks, a few decorations, minimal storage.
+    # Same as longboat
     - 5     # planks
     - 17    # logs
     - 26    # Bed.  Parties often use their landing sites as bases.
@@ -37,7 +38,9 @@ allowedBlocks: # Planks, a few decorations, minimal storage.
     - 143   # wooden button
     - 144   # mob head
     - 162   # New logs
-    - 163   # wooden stairs
+    - 163   # Acacia stairs
+    - 164   # Dark oak stairs
+    - 171   # carpet
     - 176   # banner
     - 177   # banner v2
     - 183   # 183-192 are fences

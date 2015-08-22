@@ -4,7 +4,7 @@ SinkRateTicks: 60
 SinkCheckTicks: 120
 TracerRateTicks: 5
 PilotTool: 345 # Compass
-WorldGuardBlockMoveOnBuildPerm: true
+WorldGuardBlockMoveOnBuildPerm: false
 WorldGuardBlockSinkOnPVPPerm: false
 ManOverBoardTimeout: 30
 FireballLifespan: 6
@@ -12,7 +12,7 @@ FireballPenetration: true
 DisableSpillProtection: false
 RequireCreatePerm: false
 TNTContactExplosives: true
-DisableCrates: false
+DisableCrates: true
 FadeWrecksAfter: 0
 RepairTicksPerBlock: 10
 RepairMoneyPerBlock: 10

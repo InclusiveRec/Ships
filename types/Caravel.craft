@@ -33,7 +33,8 @@ allowedBlocks:
     - 143   # wooden button
     - 144   # mob head
     - 162   # New logs
-    - 163   # wooden stairs
+    - 163   # Acacia stairs
+    - 164   # Dark oak stairs
     - 171   # carpet
     - 176   # banner
     - 177   # banner v2

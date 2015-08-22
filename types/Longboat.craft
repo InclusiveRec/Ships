@@ -89,7 +89,7 @@ flyblocks:
     [5,17,53,125,126,134,135,136,162,163]:                          # Wooden blocks, slabs, and stairs.  This forms the hull.
         - 50.0
         - 100.0
-    [35,85]:                         # Wool.  Longboats use sails to quickly cross large bodies of water.
+    [35,85,183,184,185,186,187,188,189,190,191,192]:                 # Wool and fences.
         - 15.00
         - 100.00
     54:                         # Chests.  A well-designed longboat makes a reasonable trader.

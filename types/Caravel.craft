@@ -90,6 +90,7 @@ allowedBlocks:
     - 178
     # Cannons
     - 42    # Iron block
+    - 108   # Brick stairs
 forbiddenBlocks:
     - 165 # Slimeblock ship traps could be interesting...  Or just port security.
 
@@ -100,7 +101,7 @@ allowVerticalMovement: false
 tryNudge: false
 
 # Movement settings - The caravel has large sails, giving it some maneuverability and a high cruise speed.
-speed: 3
+speed: 5
 canCruise: true
 cruiseSpeed: 4
 cruiseSkipBlocks: 6

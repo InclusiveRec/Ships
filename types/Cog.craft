@@ -102,10 +102,10 @@ allowVerticalMovement: false
 tryNudge: false
 
 # Movement settings - The cog is slow and lumbering.
-speed: 1
+speed: 3
 canCruise: true
-cruiseSpeed: 1
-cruiseSkipBlocks: 2
+cruiseSpeed: 3
+cruiseSkipBlocks: 3
 canStaticMove: true
 maxStaticMove: 1
 

@@ -104,8 +104,8 @@ tryNudge: false
 # Movement settings - The cog is slow and lumbering.
 speed: 3
 canCruise: true
-cruiseSpeed: 3
-cruiseSkipBlocks: 3
+cruiseSpeed: 2
+cruiseSkipBlocks: 5
 canStaticMove: true
 maxStaticMove: 1
 

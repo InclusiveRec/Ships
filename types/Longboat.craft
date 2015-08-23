@@ -69,9 +69,9 @@ allowVerticalMovement: false
 tryNudge: false
 
 # Movement settings
-speed: 4
+speed: 5
 canCruise: true
-cruiseSpeed: 3
+cruiseSpeed: 2
 cruiseSkipBlocks: 4
 canStaticMove: true
 maxStaticMove: 2

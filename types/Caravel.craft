@@ -101,10 +101,10 @@ allowVerticalMovement: false
 tryNudge: false
 
 # Movement settings - The caravel has large sails, giving it some maneuverability and a high cruise speed.
-speed: 5
+speed: 4
 canCruise: true
-cruiseSpeed: 4
-cruiseSkipBlocks: 6
+cruiseSpeed: 3
+cruiseSkipBlocks: 7
 canStaticMove: true
 maxStaticMove: 2
 

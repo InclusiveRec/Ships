@@ -104,8 +104,8 @@ tryNudge: false
 # Movement settings - The carrack's sails let it move quickly over open water, but it isn't very maneuverable.
 speed: 3
 canCruise: true
-cruiseSpeed: 3
-cruiseSkipBlocks: 4
+cruiseSpeed: 2
+cruiseSkipBlocks: 6
 canStaticMove: true
 maxStaticMove: 1
 

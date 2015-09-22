@@ -1,6 +1,7 @@
 name: Carrack
+
 maxSize: 15000
-minSize: 6000
+minSize: 5000
 allowedBlocks:
     # Same as longboat
     - 5     # planks
@@ -11,6 +12,7 @@ allowedBlocks:
     - 35    # wool
     - 44    # some stone and wooden slabs.  Can be used as armour.
     - 50    # torch
+#    - 51    # Fire, or else burning ships are immobilised.
     - 53    # oak stairs
     - 54    # chest
     - 58    # crafting table
@@ -91,9 +93,6 @@ allowedBlocks:
     # Cannons
     - 42    # Iron block
     - 108   # Brick stairs
-forbiddenBlocks:
-    - 165 # Slimeblock ship traps could be interesting...  Or just port security.
-
 
 # It's a boat
 canFly: false
@@ -102,29 +101,27 @@ allowVerticalMovement: false
 tryNudge: false
 
 # Movement settings - The carrack's sails let it move quickly over open water, but it isn't very maneuverable.
-speed: 3
+speed: 4
 canCruise: true
-cruiseSpeed: 2
-cruiseSkipBlocks: 6
+cruiseSpeed: 5
+cruiseSkipBlocks: 0
 canStaticMove: true
-maxStaticMove: 1
-
+maxStaticMove: 2
 
 # Sinking settings
-sinkPercent: 60.0               # GOOD LUCK SINKING THIS THING.
+sinkPercent: 50.00
 overallSinkPercent: 50.00
 keepMovingOnSink: true
 
-# Building restrictions - This is a big ship.
+# Building requirements
 minHeightLimit: 52
 maxHeightLimit: 100
 flyblocks:
-    [5,17,53,125,126,134,135,136,162,163]:                          # Hull blocks
-        - 50.0
+    [5,17,53,85,125,126,134,135,136,162,163,188,189,190,191,192]:       # Hull
+        - 60.0
         - 100.0
-    [35,85,183,184,185,186,187,188,189,190,191,192]:                 # Wool.  The carrack is a true, three-masted ship.
+    35:                                                                 # Sail
         - 25.0
         - 100.0
-    [42,108]:                         # The carrack was the Europe's first purpose-built warship.
-        - 0.0
-        - 5.0
+forbiddenBlocks:
+    - -1

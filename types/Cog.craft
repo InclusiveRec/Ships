@@ -1,8 +1,7 @@
 name: Cog
 
-
 maxSize: 2500
-minSize: 1000
+minSize: 300
 allowedBlocks:
     # Same as longboat
     - 5     # planks
@@ -13,6 +12,7 @@ allowedBlocks:
     - 35    # wool
     - 44    # some stone and wooden slabs.  Can be used as armour.
     - 50    # torch
+    - 51    # Fire, or else burning ships are immobilised.
     - 53    # oak stairs
     - 54    # chest
     - 58    # crafting table
@@ -92,8 +92,6 @@ allowedBlocks:
     - 178
     # Cannons
     - 42    # Iron block; larger cogs can carry a few light cannons.
-forbiddenBlocks:
-    - 165 # Slimeblock ship traps could be interesting...  Or just port security.
 
 # It's a boat
 canFly: false
@@ -102,29 +100,27 @@ allowVerticalMovement: false
 tryNudge: false
 
 # Movement settings - The cog is slow and lumbering.
-speed: 3
+speed: 5
 canCruise: true
-cruiseSpeed: 2
-cruiseSkipBlocks: 5
+cruiseSpeed: 5
+cruiseSkipBlocks: 0
 canStaticMove: true
-maxStaticMove: 1
+maxStaticMove: 3
 
-
-# Sinking settings
-sinkPercent: 80.0               # The cog is somewhat sturdy.
-overallSinkPercent: 60.00
+# Sinking settings  -   You will not find that the cog lasts long in a fight.
+sinkPercent: 80.00
+overallSinkPercent: 80.00
 keepMovingOnSink: true
 
-# Building restrictions - Cogs are larger than longboats, but still don't sit very deep in the water.
+# Building requirements
 minHeightLimit: 57
 maxHeightLimit: 90
 flyblocks:
-    [5,17,53,125,126,134,135,136,162,163]:                          # Oak planks.  A cog can stand a few bruises, and carry more equipment than a longboat.
-        - 50.0
+    [5,17,53,85,125,126,134,135,136,162,163,188,189,190,191,192]:       # Hull
+        - 60.0
         - 100.0
-    [35,85,183,184,185,186,187,188,189,190,191,192]:                 # Wool and fences.
+    35:                                                                 # Sail
         - 20.0
         - 100.0
-    42:                         # Iron blocks.  Cogs can mount a few guns.
-        - 0.0
-        - 0.6
+forbiddenBlocks:
+    - -1

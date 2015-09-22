@@ -4,18 +4,18 @@ name: Longboat
 # maneuvering in swamps and rivers.  It can carry a small cargo load, but the force of a cannon
 # would shake it to pieces.  Its strengths are speed and being cheap to build.
 
-maxSize: 500
-minSize: 20
+maxSize: 100
+minSize: 10
 allowedBlocks: # Planks, a few decorations, minimal storage.
     # Same as longboat
     - 5     # planks
     - 17    # logs
-    - 26    # Bed.  Parties often use their landing sites as bases.
     - 30    # cobweb
     - 34    # Piston head (required for storage crates)
     - 35    # wool
-    - 44    # some stone and wooden slabs.  Can be used as armour.
+    - 44    # slabs
     - 50    # torch
+    - 51    # Fire, or else burning ships are immobilised.
     - 53    # oak stairs
     - 54    # chest
     - 58    # crafting table
@@ -59,9 +59,6 @@ allowedBlocks: # Planks, a few decorations, minimal storage.
     - 196
     - 197
 
-forbiddenBlocks:
-    - 165 # Slimeblock ship traps could be interesting...  Or just port security.
-
 # It's a boat
 canFly: false
 requireWaterContact: true
@@ -70,31 +67,21 @@ tryNudge: false
 
 # Movement settings
 speed: 5
-canCruise: true
-cruiseSpeed: 2
-cruiseSkipBlocks: 4
+canCruise: false
 canStaticMove: true
-maxStaticMove: 2
+maxStaticMove: 5
 
-
-# Sinking settings
-sinkPercent: 95.0               # If the hull gets blown open, that's basically game over.
-overallSinkPercent: 75.00       # The ship can take a bit of beating otherwise, but not too much.
+# Sinking settings.  The longboat can be sunk with one solid hit.
+sinkPercent: 95.0
+overallSinkPercent: 90.00
 keepMovingOnSink: true
 
-# Building restrictions - longboats sit light in the water, and are not very tall.
-minHeightLimit: 58
-maxHeightLimit: 77 
+# Building requirements
+minHeightLimit: 60
+maxHeightLimit: 70 
 flyblocks:
-    [5,17,53,125,126,134,135,136,162,163]:                          # Wooden blocks, slabs, and stairs.  This forms the hull.
-        - 50.0
+    [5,17,53,85,125,126,134,135,136,162,163,188,189,190,191,192]:       # Hull
+        - 80.0
         - 100.0
-    [35,85,183,184,185,186,187,188,189,190,191,192]:                 # Wool and fences.
-        - 15.00
-        - 100.00
-    54:                         # Chests.  A well-designed longboat makes a reasonable trader.
-        - 0.00
-        - 10.00
-    44:                         # Slabs.  Only available armour
-        - 0.00
-        - 5.00
+forbiddenBlocks:
+    - -1

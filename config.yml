@@ -1,12 +1,12 @@
 Locale: en
 CompatibilityMode: true
-SinkRateTicks: 60
-SinkCheckTicks: 120
+SinkRateTicks: 20
+SinkCheckTicks: 60
 TracerRateTicks: 5
-PilotTool: 345 # Compass
+PilotTool: 345 #Compass
 WorldGuardBlockMoveOnBuildPerm: false
 WorldGuardBlockSinkOnPVPPerm: false
-ManOverBoardTimeout: 30
+ManOverBoardTimeout: 15
 FireballLifespan: 6
 FireballPenetration: true
 DisableSpillProtection: false

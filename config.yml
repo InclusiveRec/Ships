@@ -15,7 +15,7 @@ TNTContactExplosives: true
 DisableCrates: true
 FadeWrecksAfter: 0
 RepairTicksPerBlock: 10
-RepairMoneyPerBlock: 10
+RepairMoneyPerBlock: 0.5
 BlockQueueChunkSize: 1000
 AllowCrewSigns: true
 WGCustomFlagsUsePilotFlag: false

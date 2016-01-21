@@ -64,6 +64,7 @@ canFly: false
 requireWaterContact: true
 allowVerticalMovement: false
 tryNudge: false
+useGravity: true
 
 # Movement settings
 speed: 5
@@ -77,8 +78,8 @@ overallSinkPercent: 90.00
 keepMovingOnSink: true
 
 # Building requirements
-minHeightLimit: 60
-maxHeightLimit: 70 
+minHeightLimit: 61
+maxHeightLimit: 63
 flyblocks:
     [5,17,53,85,125,126,134,135,136,162,163,188,189,190,191,192]:       # Hull
         - 80.0

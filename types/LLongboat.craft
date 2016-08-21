@@ -1,0 +1,68 @@
+name: LLongboat
+
+# The longboat is a common sight in Galdur.  It is a light sailing ship with a shallow draught for
+# maneuvering in swamps and rivers.  It can carry a small cargo load, but the force of a cannon
+# would shake it to pieces.  Its strengths are speed and being cheap to build.
+
+maxSize: 100
+minSize: 10
+allowedBlocks: # Planks, a few decorations, minimal storage.
+    # Same as longboat
+    - 30    # cobweb
+    - 34    # Piston head (required for storage crates)
+    - 44    # slabs
+    - 50    # torch
+    - 51    # Fire, or else burning ships are immobilised.
+    - 54    # chest
+    - 58    # crafting table
+    - 61    # Furnace
+    - 62    # Lit Furnace
+    - 63    # sign
+    - 65    # ladder
+    - 68    # also a sign
+    - 69    # lever
+    - 71    # Iron Door
+    - 71    # Stone Button
+    - 89    # glowstone
+    - 92    # cake
+    - 112   # Nether Brick
+    - 113   # Nether Fence
+    - 114   # Nether Stairs
+    - 143   # wooden button
+    - 144   # mob head
+    - 155   # Quartz
+    - 156   # Quartz Stairs
+    - 171   # carpet
+    - 176   # banner
+    - 177   # banner v2
+    - 216   # Bone BLock
+
+# It's a boat
+canFly: false
+allowVerticalMovement: false
+tryNudge: false
+fuelBurnRate: 0.5
+requireWaterContact: true
+
+# Movement settings
+speed: 5
+canCruise: false
+canStaticMove: true
+maxStaticMove: 5
+canHover: false
+hoverLimit: 1
+
+# Sinking settings.  The longboat can be sunk with one solid hit.
+sinkPercent: 95.0
+overallSinkPercent: 90.00
+keepMovingOnSink: true
+
+# Building requirements
+minHeightLimit: 29
+maxHeightLimit: 32 
+flyblocks:
+    [112,113,216,155,156]:       # Hull
+        - 80.0
+        - 100.0
+forbiddenBlocks:
+    - -1

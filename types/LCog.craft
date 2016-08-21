@@ -1,0 +1,99 @@
+name: LCog
+
+maxSize: 2500
+minSize: 300
+allowedBlocks:
+    # Same as longboat
+    - 30    # cobweb
+    - 34    # Piston head (required for storage crates)
+    - 44    # slabs
+    - 50    # torch
+    - 51    # Fire, or else burning ships are immobilised.
+    - 54    # chest
+    - 58    # crafting table
+    - 61    # Furnace
+    - 62    # Lit Furnace
+    - 63    # sign
+    - 65    # ladder
+    - 68    # also a sign
+    - 69    # lever
+    - 71    # Iron Door
+    - 77    # Stone Button
+    - 89    # glowstone
+    - 92    # cake
+    - 112   # Nether Brick
+    - 113   # Nether Fence
+    - 114   # Nether Stairs
+    - 143   # wooden button
+    - 144   # mob head
+    - 155   # Quartz
+    - 156   # Quartz Stairs
+    - 171   # carpet
+    - 176   # banner
+    - 177   # banner v2
+    - 216   # Bone Block
+    # More decorations
+    - 95    # Glass
+    - 101   # Iron bars
+    - 102   # Glass pane
+    - 139   # Stone walls
+    - 159   # Stained clay
+    - 160   # Stained glass panes
+    - 171   # carpet
+    # Redstone devices
+    - 27
+    - 28
+    - 29
+    - 34
+    - 46    # TNT!
+    - 55
+    - 70
+    - 72
+    - 75
+    - 76
+    - 77
+    - 93
+    - 94
+    - 131
+    - 143
+    - 146
+    - 149
+    - 150
+    - 151
+    - 152
+    - 154
+    - 157
+    - 158
+    - 178
+    # Cannons
+    - 42    # Iron block; larger cogs can carry a few light cannons.
+
+# It's a boat
+canFly: false
+requireWaterContact: true
+allowVerticalMovement: false
+tryNudge: false
+fuelBurnRate: 0.5
+
+# Movement settings - The cog is slow and lumbering.
+speed: 5
+canCruise: true
+cruiseSpeed: 5
+cruiseSkipBlocks: 0
+canStaticMove: true
+maxStaticMove: 3
+
+# Sinking settings  -   You will not find that the cog lasts long in a fight.
+sinkPercent: 80.00
+overallSinkPercent: 80.00
+keepMovingOnSink: true
+
+# Building requirements
+minHeightLimit: 29
+maxHeightLimit: 32
+flyblocks:
+    [112,113,216,155,156]:       # Hull
+        - 60.0
+        - 100.0
+forbiddenBlocks:
+    - -1

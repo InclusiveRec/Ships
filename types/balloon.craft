@@ -1,0 +1,64 @@
+name: Balloon
+maxSize: 500
+minSize: 10
+allowedBlocks: 
+    - 5    #Wooden Planks
+    - 17   #Wood Logs
+    - 20   #Glass
+    - 35   #Wool
+    - 50   #Tortch
+    - 53   #Wooden Stairs
+    - 58   #Crafting Table
+    - 61   #Furnace
+    - 62   #Furnace smelting
+    - 63   #Sign
+    - 64   #Wooden Door
+    - 65   #Ladder
+    - 68   #Sign
+    - 85   #Fence 
+    - 96   #Traped Foor
+    - 102  #Glass Pane
+    - 107  #Fence Gate
+    - 125  #Oak Wood Slab Double
+    - 126  #Oak Wood Slab
+    - 134  #Wooden Stairs
+    - 135  #Wooden Stairs
+    - 136  #Wooden Stairs
+    - 160  #Stained Glass Pane
+    - 162  #More Wood Logs
+    - 163  #More Stairs
+    - 162  #Even More Stairs
+    - 183  #Fence Gate
+    - 184  #Fence Gate
+    - 185  #Fence Gate
+    - 186  #Fence Gate
+    - 187  #Fence Gate
+    - 188  #Fence
+    - 189  #Fence
+    - 190  #Fence
+    - 191  #Fence
+    - 192  #Fence
+    - 193  #Wood door
+    - 194  #Wood door
+    - 195  #Wood door
+    - 196  #Wood door
+    - 197  #Wood door
+forbiddenBlocks:
+    - 7
+
+canCruise: false
+canFly: true
+minHeightLimit: 100
+maxHeightLimit: 170
+collisionExplosion: 20.0
+speed: 3.0
+fuelBurnRate: 7.0
+sinkPercent: 99.0
+overallSinkPercent: 60.0
+tryNudge: false
+canStaticMove: true
+maxStaticMove: 2
+flyblocks:
+    35: # wool represents lift
+        - 80.0
+        - 100.0

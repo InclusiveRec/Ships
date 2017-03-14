@@ -9,7 +9,7 @@ allowedBlocks:
     - 35   #Wool
     - 43   #Stone slab Double
     - 44   #Stone Slab
-    - 50   #Tortch
+    - 50   #Torch
     - 53   #Wooden Stairs
     - 54   #Chest
     - 57   #Diamon Block
@@ -29,8 +29,8 @@ allowedBlocks:
     - 102  #Glass Pane
     - 107  #Fence Gate
     - 109  #Stone Brick Stairs
-    - 113  #Neather Brick Fence
-    - 114  #Neather Bick Stairs
+    - 113  #Nether Brick Fence
+    - 114  #Nether Bick Stairs
     - 125  #Oak Wood Slab Double
     - 126  #Oak Wood Slab
     - 134  #Wooden Stairs
@@ -48,7 +48,7 @@ allowedBlocks:
     - 162  #Even More Stairs
     - 165  #Slime Block
     - 167  #Iron traped Door
-    - 169  #See Lantern
+    - 169  #Sea Lantern
     - 171  #Carpet 
     - 173  #Coal Block
     - 183  #Fence Gate
@@ -71,7 +71,7 @@ forbiddenBlocks:
 
 canCruise: true
 canFly: true
-minHeightLimit: 85
+minHeightLimit: 90
 maxHeightLimit: 180
 vertCruiseSkipBlocks: 0
 collisionExplosion: 15.0
@@ -88,3 +88,4 @@ flyblocks:
     57: # diamond represents engines
         - 4.0
         - 100.0
+

@@ -22,6 +22,7 @@ allowedBlocks:
     - 68   #Sign
     - 69   #Lever
     - 77   #Stone Button
+    - 78   #Snow layer
     - 85   #Fence 
     - 89   #Glowstone
     - 95   #Stained Glass
@@ -74,7 +75,6 @@ canFly: true
 minHeightLimit: 90
 maxHeightLimit: 180
 vertCruiseSkipBlocks: 0
-collisionExplosion: 15.0
 speed: 4.0
 cruiseSkipBlocks: 0
 cruiseSpeed: 5.0
@@ -88,4 +88,3 @@ flyblocks:
     57: # diamond represents engines
         - 4.0
         - 100.0
-

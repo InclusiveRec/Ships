@@ -99,6 +99,7 @@ canFly: false
 requireWaterContact: true
 allowVerticalMovement: false
 tryNudge: false
+useGravity: true
 
 
 # Movement settings - The caravel has large sails, giving it some maneuverability and a high cruise speed.

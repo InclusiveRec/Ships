@@ -34,6 +34,7 @@ allowedBlocks:
     - 136   # jungle wood stairs
     - 143   # wooden button
     - 144   # mob head
+    - 159   # harden clay
     - 162   # New logs
     - 163   # Acacia stairs
     - 164   # Dark oak stairs

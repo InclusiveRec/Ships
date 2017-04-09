@@ -43,6 +43,8 @@ allowedBlocks: # Planks, a few decorations, minimal storage.
     - 171   # carpet
     - 176   # banner
     - 177   # banner v2
+    - 61    # furnace
+    - 62    # lit furnace
     - 183   # 183-192 are fences
     - 184
     - 185

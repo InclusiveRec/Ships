@@ -1,0 +1,77 @@
+name: Zeppelin
+maxSize: 6000
+minSize: 1000
+allowedBlocks: 
+    - 5    #planks
+    - 17   #logs
+    - 20   #glass
+    - 26   #bed
+    - 35   #wool
+    - 47   #bookshelf
+    - 50   #torch
+    - 53   #stairs
+    - 54   #chest      
+    - 61   #furnace
+    - 63   #sign
+    - 64   #door
+    - 65   #ladder
+    - 68   #sign
+    - 85   #fence
+    - 89   #glowstone
+    - 95   #stained glass
+    - 96   #trapdoor
+    - 101  #iron bars
+    - 102  #glass pane
+    - 107  #fence gate
+    - 116  #enchanting table
+    - 122  #dragon egg
+    - 125  #wooden slabs
+    - 126  #slabs
+    - 134  #stairs 134-136
+    - 135
+    - 136
+    - 140  #flowe pot
+    - 144  #skull
+    - 160  #stained pane
+    - 169  #see lanten
+    - 171  #carpet
+    - 183  #183-192 fences and gates
+    - 184
+    - 185
+    - 186
+    - 187
+    - 188
+    - 189
+    - 190
+    - 191  
+    - 192  
+    - 193  #193-197 doors
+    - 194
+    - 195
+    - 196
+    - 197
+
+forbiddenBlocks:
+    - 7
+
+canCruise: true
+canFly: true
+minHeightLimit: 60
+maxHeightLimit: 150
+vertCruiseSkipBlocks: 1
+collisionExplosion: 3.0
+explodeOnCrash: 2.0
+speed: 1.0
+cruiseSkipBlocks: 0
+cruiseSpeed: 2.0
+fuelBurnRate: 1.0
+sinkPercent: .0
+overallSinkPercent: 60.0
+tryNudge: false
+canStaticMove: true
+maxStaticMove: 5
+useGravity: true
+flyblocks:
+    35: #wool represents lift
+        - 80.0
+        - 100.0

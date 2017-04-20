@@ -83,8 +83,8 @@ sinkPercent: 99.0
 overallSinkPercent: 60.0
 tryNudge: false
 canStaticMove: true
-maxStaticMove: 3
+maxStaticMove: 4
 flyblocks:
     57: # diamond represents engines
-        - 4.0
+        - 2.0
         - 100.0

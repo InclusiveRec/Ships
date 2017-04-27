@@ -1,0 +1,124 @@
+name: F-35
+maxSize: 1200
+minSize: 100
+allowedBlocks: 
+    - 5    #Wooden Planks
+    - 17   #Wood Logs
+    - 20   #Glass
+    - 23   #Dispenser
+    - 25   #Note Block
+    - 26   #Bed
+    - 29   #Sticky Piston
+    - 33   #Piston
+    - 34   #Piston Head
+    - 35   #Wool
+    - 41   #Gold Block
+    - 42   #Iron
+    - 43   #Stone slab Double
+    - 44   #Stone Slab
+    - 50   #Tortch
+    - 53   #Wooden Stairs
+    - 54   #Chest
+    - 55   #Redstone Wire
+    - 57   #Diamon Block
+    - 58   #Crafting Table
+    - 61   #Furnace
+    - 62   #Furnace smelting
+    - 63   #Sign
+    - 64   #Wooden Door
+    - 65   #Ladder
+    - 68   #Sign
+    - 69   #Lever
+    - 70   #Stone Pressure Plate
+    - 71   #Iron Door
+    - 72   #Wooden Pressure Plate
+    - 75   #Unlit Redstone Torch
+    - 76   #Redstone Tortch
+    - 77   #Stone Button
+    - 85   #Fence 
+    - 89   #Glowstone
+    - 93   #Repeater Off
+    - 94   #Repeater On
+    - 95   #Stained Glass
+    - 96   #Traped Door
+    - 101  #Iron bars
+    - 102  #Glass Pane
+    - 107  #Fence Gate
+    - 109  #Stone Brick Stairs
+    - 113  #Neather Brick Fence
+    - 114  #Neather Bick Stairs
+    - 123  #Redstone Lamp Off
+    - 124  #Redstone Lamp On
+    - 125  #Oak Wood Slab Double
+    - 126  #Oak Wood Slab
+    - 130  #Ender Chest
+    - 131  #Tripwire Hook
+    - 133  #Emirald Block
+    - 134  #Wooden Stairs
+    - 135  #Wooden Stairs
+    - 136  #Wooden Stairs
+    - 139  #Cobble Stone Wall
+    - 140  #Plant pot
+    - 143  #Wooden Button
+    - 144  #Mob Skull
+    - 146  #Traped Chest
+    - 149  #Comparator Off
+    - 150  #Comparator On
+    - 151  #Daylight Sensor
+    - 152  #RedstoneBlock
+    - 154  #Hopper
+    - 155  #Quartz Block
+    - 156  #Quartz Stairs
+    - 158  #Dropper
+    - 159  #Stained Clay
+    - 160  #Stained Glass Pane
+    - 162  #More Wood Logs
+    - 163  #More Stairs
+    - 162  #Even More Stairs
+    - 167  #Iron traped Door
+    - 169  #See Lantern
+    - 171  #Carpet 
+    - 172  #Hardened Clay
+    - 173  #Coal Block
+    - 183  #Fence Gate
+    - 184  #Fence Gate
+    - 185  #Fence Gate
+    - 186  #Fence Gate
+    - 187  #Fence Gate
+    - 188  #Fence
+    - 189  #Fence
+    - 190  #Fence
+    - 191  #Fence
+    - 192  #Fence
+    - 193  #Wood door
+    - 194  #Wood door
+    - 195  #Wood door
+    - 196  #Wood door
+    - 197  #Wood door
+    - 198  #End Rod
+    - 203  #Purpur Stairs
+    - 205  #Purpur Slab
+    - 216  #Bone Block
+    - 218  #Observer
+    - 229  #Shulker Box
+forbiddenBlocks:
+    - 7
+
+canCruise: true
+canFly: true
+maxHeightLimit: 160
+vertCruiseSkipBlocks: 0
+speed: 4.0
+cruiseSkipBlocks: 4
+cruiseSpeed: 10.0
+fuelBurnRate: 4.0
+sinkPercent: 50.0
+overallSinkPercent: 60.0
+tryNudge: false
+canStaticMove: true
+maxStaticMove: 5
+useGravity: true
+flyblocks:
+    152: # Redstone represents engines
+        - 4.0
+        - 100.0

@@ -53,8 +53,9 @@ canCruise: false
 canFly: true
 minHeightLimit: 100
 maxHeightLimit: 150
+collisionExplosion: 20.0
 speed: 2.0
-fuelBurnRate: 2.0
+fuelBurnRate: 0.25
 sinkPercent: 99.0
 overallSinkPercent: 60.0
 tryNudge: false

@@ -93,7 +93,7 @@ vertCruiseSkipBlocks: 2
 speed: 4.0
 cruiseSkipBlocks: 4
 cruiseSpeed: 7.0
-fuelBurnRate: 4.0
+fuelBurnRate: 0.49
 sinkPercent: 80.0
 overallSinkPercent: 90.0
 tryNudge: false

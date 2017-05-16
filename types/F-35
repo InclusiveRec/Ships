@@ -11,7 +11,7 @@ allowedBlocks:
     - 42   #Iron
     - 43   #Stone slab Double
     - 44   #Stone Slab
-    - 50   #Tortch
+    - 50   #Torch
     - 53   #Wooden Stairs
     - 54   #Chest
     - 55   #Redstone Wire
@@ -41,11 +41,11 @@ allowedBlocks:
     - 107  #Fence Gate
     - 109  #Stone Brick Stairs
     - 113  #Neather Brick Fence
-    - 114  #Neather Bick Stairs
+    - 114  #Neather Brick Stairs
     - 125  #Oak Wood Slab Double
     - 126  #Oak Wood Slab
     - 131  #Tripwire Hook
-    - 133  #Emirald Block
+    - 133  #Emerald Block
     - 134  #Wooden Stairs
     - 135  #Wooden Stairs
     - 136  #Wooden Stairs
@@ -89,6 +89,7 @@ canCruise: true
 canFly: true
 maxHeightLimit: 160
 minHeightLimit: 64
+collisionExplosion: 20.0
 vertCruiseSkipBlocks: 2
 speed: 4.0
 cruiseSkipBlocks: 4

@@ -1,0 +1,19 @@
+name: HangerDoor
+maxSize: 500
+minSize: 3
+allowedBlocks: 
+    - 42  #Iron
+    
+forbiddenBlocks:
+    - 7
+
+blockedByWater: true
+allowVerticalMovement: false
+canStaticMove: true
+maxStaticMove: 2
+speed: 2.0
+tryNudge: false
+flyblocks:
+    42:
+        - 0.0
+        - 100.0
